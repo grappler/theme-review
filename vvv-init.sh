@@ -109,7 +109,7 @@ fi
 
 # Install Pig Latin.
 if ! $(wp plugin is-installed piglatin); then
-	wp plugin install piglatin --activate
+	wp plugin install piglatin
 fi
 
 # Install Airplane Mode.
